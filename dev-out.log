@@ -1,0 +1,47 @@
+
+> dev
+> concurrently "cd backend && npm run dev" "cd frontend && npm run dev -- --host 0.0.0.0"
+
+[0] 
+[0] > healthcard-backend@1.0.0 dev
+[0] > node src/index.js
+[0] 
+[1] 
+[1] > healthcard-frontend@1.0.0 dev
+[1] > vite --host 0.0.0.0
+[1] 
+[0] ✅ Firebase Admin SDK initialized with FIREBASE_SERVICE_ACCOUNT_PATH (C:\Users\anike\OneDrive\Desktop\Health_card\healthcard\backend\serviceAccountKey.json)
+[0] ✅ Firestore database connection ready
+[0] 
+[0] 🏥 HealthCard API running on http://localhost:5000
+[0]    Health check: http://localhost:5000/api/health
+[0] 
+[1] 
+[1]   [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m326[22m[2m[0m ms[22m
+[1] 
+[1]   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[1]   [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.56.1:[1m5173[22m/[39m
+[1]   [32m➜[39m  [1mNetwork[22m: [36mhttp://10.243.196.201:[1m5173[22m/[39m
+[0] 2026-05-14T08:32:09.694Z GET /api/health
+[0] 2026-05-14T08:33:44.354Z GET /api/auth/me
+[0] (node:4240) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+[0] (Use `node --trace-deprecation ...` to show where the warning was created)
+[0] 2026-05-14T08:33:46.580Z GET /api/patients/me
+[0] 2026-05-14T08:33:46.581Z GET /api/families/me
+[0] 2026-05-14T08:33:46.591Z GET /api/patients/me/records
+[0] 2026-05-14T08:33:47.107Z GET /api/patients/me
+[0] 2026-05-14T08:33:47.204Z GET /api/patients/me/records
+[0] 2026-05-14T08:33:47.327Z GET /api/families/me
+[0] 2026-05-14T08:33:51.297Z GET /api/patients/me/qr
+[0] 2026-05-14T08:33:51.527Z GET /api/patients/me/qr
+[0] 2026-05-14T08:34:59.993Z GET /api/auth/me
+[0] 2026-05-14T08:35:00.973Z GET /api/doctors/me
+[0] 2026-05-14T08:35:01.015Z GET /api/doctors/me/patients
+[0] 2026-05-14T08:35:01.430Z GET /api/doctors/me
+[0] 2026-05-14T08:35:01.980Z GET /api/doctors/me/patients
+[0] 2026-05-14T08:35:12.748Z GET /api/auth/me
+[0] 2026-05-14T08:35:55.669Z GET /api/auth/me
+[0] 2026-05-14T08:35:56.313Z GET /api/doctors/me
+[0] 2026-05-14T08:35:56.328Z GET /api/doctors/me/patients
+[0] 2026-05-14T08:35:56.716Z GET /api/doctors/me
+[0] 2026-05-14T08:35:56.985Z GET /api/doctors/me/patients
